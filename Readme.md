@@ -12,7 +12,7 @@ In your prompt execute:
 
 And if you get something like this:
 
-	Downloading PsGet from https://github.com/psget/psget/raw/master/PsGet/PsGet.psm1
+	Downloading PsGet from https://github.com/xaxdev/psget/raw/master/PsGet/PsGet.psm1
 	PsGet is installed and ready to use
 
 You are done. The PowerShell script downloads `GetPsGet.ps1` and sends it to `Invoke-Expression` to install the PsGet Module.
@@ -81,7 +81,7 @@ A: By default, PowerShell restricts execution of all scripts which is all about 
 For mode details, run `get-help` [about_Execution_Policies](http://msdn.microsoft.com/en-us/library/dd347641.aspx).
 
 Q: How to add my module to the directory?
-A: Review a [small section](https://github.com/psget/psget/wiki/How-to-add-your-module-to-the-directory) of the [wiki](https://github.com/psget/psget/wiki)
+A: Review a [small section](https://github.com/xaxdev/psget/wiki/How-to-add-your-module-to-the-directory) of the [wiki](https://github.com/psget/psget/wiki)
 
 
 Roadmap
@@ -104,11 +104,11 @@ Resources
 Contributing
 ============
 
-If you are interested in contributing to PsGet, please read this [page](https://github.com/psget/psget/wiki/How-can-I-contribute-to-PsGet) from [wiki](https://github.com/psget/psget/wiki)
+If you are interested in contributing to PsGet, please read this [page](https://github.com/xaxdev/psget/wiki/How-can-I-contribute-to-PsGet) from [wiki](https://github.com/xaxdev/psget/wiki)
 
 Credits
 =======
 
 Module based on [Install-Module by Joel Bennett](http://poshcode.org/1875)
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/psget/psget/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xaxdev/psget/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
